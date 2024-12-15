@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>self information form</title>
+    
+</head>
+<body>
+    <h1>information form</h1>
+    <form action="post">
+    <ol>
+    <li>
+        <div>
+            <label for="name">enter your name </label>
+            <input type="text" id="name" placeholder="enter your name" autofocus>
+        </div>
+    </li>
+    <li>
+        <div>
+            gender:
+            <input type="radio" id="male" name="gender" >
+            <label for="male"> male</label>
+            <input type="radio" id="female" name="gender" >
+            <label for="female"> female</label>
+        </div>
+    </li>
+    <li>
+        <div>
+        name of state:
+            <select name="state" id="state">
+                <option value="a"> a</option>
+                <option value="b"> b</option>
+                <option value="c"> c</option>
+                <option value="d"> d</option>
+                <option value="e"> e</option>
+            </select>
+        </div>
+    </li>
+    <li>
+        <div>
+            <label for="write">write about yourself ....</label>
+           <p> <textarea name="write something here....." id="write" placeholder="write here ..."></textarea></p>
+        </div>
+    </li>
+    <li>
+        <div>
+            <p>here are some videos you can watch....</p>
+            <p><video src="video1.mp4" height="150" width="200" poster="poster.jfif" controls></video></p>
+            <p><video src="video2.mp4" height="150"  width="200" poster="poster.jfif"controls></video></p>
+        </div>
+    </li>
+     </ol>
+    </form>
+
+</body>
+</html>
